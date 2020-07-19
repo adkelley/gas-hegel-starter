@@ -1,0 +1,12 @@
+environment: nodejs
+
+exclude: 
+  - ./node_modules/**
+  - ./dist/**
+
+include:
+  - ./src/*.js
+
+typings:
+  - ./@types
+  - ./node_modules/@types

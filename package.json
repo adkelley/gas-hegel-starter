@@ -1,0 +1,25 @@
+{
+  "name": "gas-hegel-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Kelley <https://github.com/adkelley>",
+  "license": "MIT",
+  "scripts": {
+    "clasp:create": "clasp create --rootDir ./dist",
+    "build": "webpack --mode production",
+    "push": "clasp push",
+    "watch": "watch 'yarn push' dist/"
+  },
+  "devDependencies": {
+    "@hegel/cli": "^0.0.45",
+    "@types/google-apps-script": "^1.0.14",
+    "clasp": "^1.0.0",
+    "flow-remove-types": "^2.129.0",
+    "gas-webpack-plugin": "^1.0.3",
+    "remove-flow-types-loader": "^1.1.0",
+    "watch": "^1.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
